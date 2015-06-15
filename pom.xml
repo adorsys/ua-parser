@@ -13,4 +13,20 @@
     <module>uap-java</module>
   </modules>
 
+  <scm>
+    <connection>scm:git:git@github.com:adorsys/ua-parser.git</connection>
+    <url>scm:git:git@github.com:adorsys/ua-parser.git</url>
+    <developerConnection>scm:git:git@github.com:adorsys/ua-parser.git</developerConnection>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>ads.releases</id>
+      <url>https://nexus.adorsys.de/nexus/content/repositories/ads-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ads.snapshots</id>
+      <url>https://nexus.adorsys.de/nexus/content/repositories/ads-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
