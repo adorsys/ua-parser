@@ -1,6 +1,6 @@
 # ua-parser
 
-Contains forks of ua-parser/uap-core and ua-parser/uap-java
+Contains the forked [uap-core](https://github.com/adorsys/uap-core) and [uap-java](https://github.com/adorsys/uap-java).
 
 ## Changes
 
