@@ -10,3 +10,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+*~
+.DS_Store
+._.*
+.classpath
+.project
+.settings
+.eclipse
+.idea
+.forge_settings
+.cache
+target/
+bin/
+classes/
+lib/
+gwt-unitCache/
+WEB-INF/deploy/
