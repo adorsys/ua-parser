@@ -2,13 +2,20 @@
 
 Contains the forked [uap-core](https://github.com/adorsys/uap-core) and [uap-java](https://github.com/adorsys/uap-java).
 
+## Releases
+
+This project includes two independent git-submodules which must be released seperatly (uap-core before uap-java).
+
 ## Changes
 
 ### Common
 
 * Updated DeviceParser to work with new core regexes
-* GroupId and Packages changed from ua_parser to de.adorsys.ua_parser (avoids conflicts...)
+* GroupId and Packages changed from ua_parser to de.adorsys.uap.java (avoids conflicts...)
 * Updated Java6 to Java7 and other dependecies to current versions
+* uap-core is now also a maven project which builds a jar and a test-jar containing the regexes. 
+  Both can be released and uap-java relies on a released version of uap-core
+  (a mvn release relying on relative paths doesn't work)
 * Projects can be released to the adorsys nexus
 
 ### KTB Agents
