@@ -8,6 +8,12 @@
   <name>ua-parser</name>
   <url>https://github.com/adorsys/ua-parser/</url>
 
+  <scm>
+    <connection>scm:git:git@github.com:adorsys/ua_parser.git</connection>
+    <url>scm:git:git@github.com:adorsys/ua_parser.git</url>
+    <developerConnection>scm:git:git@github.com:adorsys/ua_parser.git</developerConnection>
+  </scm>
+
   <modules>
     <module>uap-core</module>
     <module>uap-java</module>
