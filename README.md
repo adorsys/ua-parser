@@ -2,9 +2,11 @@
 
 Contains the forked [uap-core](https://github.com/adorsys/uap-core) and [uap-java](https://github.com/adorsys/uap-java).
 
-## Releases
+## Build and Releases
 
-This project includes two independent git-submodules which must be released seperatly (uap-core before uap-java).
+**This project includes two independent git-submodules which must be built and released seperatly (uap-core before uap-java).**
+
+Could be fixed by adding a parent pom if anybody knows if it's possible to release a multi-modul project which includes maven-modules as git-modules.
 
 ## Changes
 
